@@ -85,11 +85,229 @@ svg {
 /* font-family: 'Barlow',sans-serif;*/
 /*font-family: 'Fraunces',serif; */
 
+.header{
+    padding-top: 30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
 .logo{
-    background-color: red;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+.header{
+    min-height: 100vh;
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul{
+    /* display: flex; */
+    list-style: none;
+    font-family: 'Barlow',sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.header-btn{
+    font-family: 'Fraunces',serif;
+    font-size: 16px;
+}
+
+.header-btn button{
+    border-radius: 30px;
+    height: 3rem;
+    width:9rem;
+    border:none;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.main-heading{
+    font-family: 'Fraunces',serif;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
 }
 
 .arrow{
-    background-color: red;
-    /* border: 1px solid red; */
+    height: 90px;
+    width: fit-content;
+}
+
+/*//////////////////////////*/
+
+/* For second Section */
+
+.second{
+    min-height: 100vh;
+}
+
+.row{
+    display: flex;
+    width: 100vw;
+    height: 500px;
+}
+
+.first-row{
+    /* background: red; */
+}
+.second-row{
+    /* background: blue; */
+}
+
+.box,.box-dif{
+    height: 100%;
+    width: 50%;
+}
+
+.first-text{
+    /* background-color: red; */
+}
+.second-text{
+}
+.third-text{
+
+}
+
+.first-image,.second-image, .third-image-text{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.first-image{
+    background-image: url(images/desktop/image-transform.jpg);
+}
+.second-image{
+    background-image: url(images/desktop/image-stand-out.jpg);
+}
+.third-image{
+    background-image: url(images/desktop/);
+}
+
+.third-image-text1{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+}
+
+.third-image-text2{
+    background-image: url(images/desktop/image-photography.jpg);
+}
+
+.box-heading{
+    font-family: 'Fraunces',serif;
+    font-size: 30px;
+    font-weight: 900;
+    width: 80%;
+    margin-top: 150px;
+}
+
+.box-para{
+    font-family: 'Barlow',sans-serif;
+    color: var(--gb-300);
+    margin: 25px 0;
+}
+
+.learn-more{
+    font-weight: 900;
+    font-family: 'Fraunces',serif;
+    font-size: 16px;
+    color: black;
+}
+
+.box{
+    padding: 0px 130px;
+}
+
+.box-dif{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.box-sub-heading{
+    font-family: 'Fraunces',serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--cyan-200);
+}
+
+.box-sub-para{
+    color: var(--cyan-200);
+    font-family: 'Barlow',sans-serif;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.testimonials{
+    border: 1px solid red;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-test{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-heading{
+    font-family: 'Fraunces',sans-serif;
+    opacity: 0.5;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.test{
+    width: 25%;
+    text-align: center;
+}
+
+.test-img{
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+}
+
+.test-name{
+    font-family: 'Fraunces',serif;
+}
+
+.test-para,.test-role{
+    font-family: 'Barlow',sans-serif;
+}
+.test-para{
+    color: var(--cyan-200);
+}
+
+.test-role{
+    font-size: 14px;
+    color: var(--gb-100);
 }

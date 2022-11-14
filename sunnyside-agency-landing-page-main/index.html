@@ -1,39 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="colors.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="colors.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
-    rel="stylesheet">
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <body>
+    <section class="header">
+      <nav class="navbar">
+        <img src="images/logo.svg" alt="" class="logo" />
+        <ul>
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li class="header-btn"><button>CONTACT</button></li>
+        </ul>
+      </nav>
+      <div class="main-header">
+        <h1 class="main-heading">WE ARE CREATIVES</h1>
+        <img src="images/icon-arrow-down.svg" alt="" class="arrow" />
+      </div>
+    </section>
+    <section class="second">
+      <div class="row first-row">
+        <div class="box first-text">
+          <h2 class="box-heading">Transform your brand</h2>
+          <p class="box-para">We are full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
 
+          <a href="" class="learn-more">LEARN MORE</a>
+        </div>
+        <div class="box first-image"></div>
+      </div>
+      <div class="row second-row">
+        <div class="box second-image"></div>
+        <div class="box second-text">
+          <h2 class="box-heading">Stand out to the right audience</h2>
+          <p class="box-para">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
+          
+          <a href="" class="learn-more">LEARN MORE</a>
+        </div>
+      </div>
+      <div class="row third-row">
+        <div class="box-dif third-image-text1 third-image-text">
+          <h3 class="box-sub-heading">Graphic Design</h3>
+          <p class="box-sub-para">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+        </div>
+        <div class="box-dif third-image-text2 third-image-text">
+          <h3 class="box-sub-heading">Photography</h3>
+          <p class="box-sub-para">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <h3 class="testimonial-heading">CLIENT TESTIMONIALS</h3>
+      <div class="main-test">
 
-</head>
-
-<body>
-  <section class="header">
-    <nav class="navbar">
-      <img src="images/logo.svg" alt="" class="logo">
-      <ul>
-        <li>About</li>
-        <li>Services</li>
-        <li>Projects</li>
-        <li><button>CONTACT</button></li>
-      </ul>
-    </nav>
-    <div class="main-header">
-      <h1 class="main-heading">WE ARE CREATIVES</h1>
-      <img src="images/icon-arrow-down.svg" alt="" class="arrow">
-    </div>
-  </section>
-</body>
-
+        <div class="test test1">
+          <img src="images/image-emily.jpg" alt="" class="test-img">
+          <p class="test-para">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <p class="test-name">Emily R.</p>
+          <p class="test-role">Marketing Director</p>
+        </div>
+        <div class="test test2">
+          <img src="images/image-thomas.jpg" alt="" class="test-img">
+          <p class="test-para">Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+          <p class="test-name">Thomas S.</p>
+          <p class="test-role">Cheif Operating Officer</p>
+        </div>
+        <div class="test test3">
+          <img src="images/image-jennie.jpg" alt="" class="test-img">
+          <p class="test-para">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="test-name">Jennie F.</p>
+          <p class="test-role">Business Owner</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
